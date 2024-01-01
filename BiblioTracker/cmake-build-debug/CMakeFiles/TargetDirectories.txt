@@ -1,0 +1,3 @@
+/home/kajetan/CLionProjects/BiblioTracker/cmake-build-debug/CMakeFiles/projectCpp.dir
+/home/kajetan/CLionProjects/BiblioTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kajetan/CLionProjects/BiblioTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
