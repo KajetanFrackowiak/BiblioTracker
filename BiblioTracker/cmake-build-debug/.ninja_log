@@ -1,3 +1,11 @@
 # ninja log v5
 780	845	1704138143788333440	projectCpp	4023b5badab66d50
-0	779	1704138143724333185	CMakeFiles/projectCpp.dir/main.cpp.o	1b866e1f103eb6d3
+0	16	1704215375006531047	build.ninja	3cc846b549b60cc5
+1	344	1704215360234411522	CMakeFiles/projectCpp.dir/Color.cpp.o	94fd850d56d245b3
+1	21	1704215359910408893	CMakeFiles/projectCpp.dir/DateChecker.cpp.o	9fa4aec3c0591530
+1	300	1704215360190411164	CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.o	ad5a2d235890f8d7
+1	644	1704215360534413955	CMakeFiles/projectCpp.dir/BibliographyManager.cpp.o	c19595bfc0af44ef
+1	432	1704215360322412235	CMakeFiles/projectCpp.dir/main.cpp.o	c9adf40eebd7f1f7
+1	477	1704215969847013338	CMakeFiles/projectCpp.dir/main.cpp.o	c9adf40eebd7f1f7
+1	633	1704215970003014457	CMakeFiles/projectCpp.dir/BibliographyManager.cpp.o	c19595bfc0af44ef
+633	713	1704215970083015030	projectCpp	902a2c26de67bd42

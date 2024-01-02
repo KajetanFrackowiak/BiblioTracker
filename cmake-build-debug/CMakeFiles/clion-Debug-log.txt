@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/kajetan/CLionProjects/BiblioTracker Select CMakeLists.txt
