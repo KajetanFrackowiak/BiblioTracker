@@ -22,7 +22,7 @@ void BibliographyRecord::display() const {
     std::cout << std::endl;
 }
 
-bool BibliographyRecord::operator==(const BibliographyRecord& other) const {
+bool BibliographyRecord::operator==(const BibliographyRecord&other) const {
     return lastName == other.lastName &&
            firstName == other.firstName &&
            title == other.title &&
@@ -30,7 +30,7 @@ bool BibliographyRecord::operator==(const BibliographyRecord& other) const {
 }
 
 [[nodiscard]] bool BibliographyRecord::isValidLastName() const {
-    for (const char c : lastName) {
+    for (const char c: lastName) {
         if (!isalpha(c) || (c == ' ')) {
             return false;
         }
@@ -40,7 +40,7 @@ bool BibliographyRecord::operator==(const BibliographyRecord& other) const {
 }
 
 [[nodiscard]] bool BibliographyRecord::isValidFirstName() const {
-    for (const char c : firstName) {
+    for (const char c: firstName) {
         if (!isalpha(c) || (c == ' ')) {
             return false;
         }

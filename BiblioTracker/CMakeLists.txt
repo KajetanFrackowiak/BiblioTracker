@@ -13,3 +13,7 @@ add_executable(projectCpp main.cpp
         BibliographyManager.cpp
         BibliographyManager.h
 )
+
+# Add any additional dependencies or include directories if needed
+# target_include_directories(projectCpp PRIVATE path/to/your/includes)
+# target_link_libraries(projectCpp PRIVATE your_additional_libraries)

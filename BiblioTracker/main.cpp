@@ -8,9 +8,9 @@
 #include "Color.h"
 
 
-
 int main() {
     BibliographyManager manager;
+
 
     // Przykładowe użycie
     manager.loadFromFile("bibliography.txt");
@@ -76,16 +76,16 @@ int main() {
 
                         if (!newRecord.isValidLastName()) {
                             std::cerr << "Invalid last name format. Last name must not contain digits and should start "
-                                         "with a capital letter.\nWrite again: ";
+                                    "with a capital letter.\nWrite again: ";
                             // Clear the input buffer before prompting again
                             std::cin.clear();
                             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-                            continue;  // Continue the loop without executing the remaining code
+                            continue; // Continue the loop without executing the remaining code
                         }
 
-                        break;  // Break the loop if last name is valid
-
-                    } while (true);  // Infinite loop, will break when last name is valid
+                        break; // Break the loop if last name is valid
+                    }
+                    while (true); // Infinite loop, will break when last name is valid
 
                     std::cout << "Enter first name: ";
                     do {
@@ -113,12 +113,13 @@ int main() {
                         std::cin >> newRecord.year;
                         if (!DateChecker::isValidYear(newRecord.year)) {
                             std::cerr << "\nInvalid year. Please enter a year not greater than the current year."
-                                         "\nWrite again: ";
+                                    "\nWrite again: ";
                             std::cin.clear();
                             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                         }
                         break;
-                    } while (true);
+                    }
+                    while (true);
 
 
                     manager.addRecord(newRecord);
