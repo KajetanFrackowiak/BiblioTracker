@@ -5,7 +5,7 @@
 
 class DateChecker {
 public:
-    static bool isValidYear(const int year);
+    static bool isValidYear(int year);
 };
 
 #endif // DATE_CHECKER_H

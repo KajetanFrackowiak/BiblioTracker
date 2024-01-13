@@ -17,7 +17,7 @@ int main() {
 
     int choice;
     do {
-        displayMenu();
+        manager.displayMenu();
         std::cin >> choice;
 
         try {
@@ -109,8 +109,8 @@ int main() {
                     std::getline(std::cin, newRecord.title);
 
                     do {
-                    std::cout << "Enter year: ";
-                    std::cin >> newRecord.year;
+                        std::cout << "Enter year: ";
+                        std::cin >> newRecord.year;
                         if (!DateChecker::isValidYear(newRecord.year)) {
                             std::cerr << "\nInvalid year. Please enter a year not greater than the current year."
                                          "\nWrite again: ";
