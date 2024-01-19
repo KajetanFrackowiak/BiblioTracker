@@ -10,6 +10,6 @@ enum class Color {
     BLUE
 };
 
-void setColor(const Color color);
+void setColor(Color color);
 
 #endif // COLOR_H

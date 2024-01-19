@@ -25,5 +25,6 @@ public:
     void removeRecord(const BibliographyRecord &record);
     void saveToFile(const std::string &filename) const;
     void clearRecords();
-    void displayMenu();
+
+    static void displayMenu();
 };

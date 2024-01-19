@@ -8,7 +8,6 @@
 #include <fstream>
 #include <iostream>
 #include <memory>
-#include <sstream>
 
 
 std::vector<std::unique_ptr<BibliographyRecord> > records;

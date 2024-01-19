@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/frackowiak/Documents/BiblioTracker/BiblioTracker/cmake-build-debug",
-		"source" : "/home/frackowiak/Documents/BiblioTracker/BiblioTracker"
+		"build" : "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug",
+		"source" : "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker"
 	},
 	"version" : 
 	{

@@ -8,6 +8,7 @@
 
 void setColor(const Color color) {
     switch (color) {
+        // ANSI escape codes
         case Color::RESET:
             std::cout << "\033[0m";
             break;

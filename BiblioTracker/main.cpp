@@ -11,8 +11,6 @@
 int main() {
     BibliographyManager manager;
 
-
-    // Przykładowe użycie
     manager.loadFromFile("bibliography.txt");
 
     int choice;

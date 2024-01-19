@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/projectCpp.dir/main.cpp.o CMakeFiles/projectCpp.dir/DateChecker.cpp.o CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.o CMakeFiles/projectCpp.dir/Color.cpp.o CMakeFiles/projectCpp.dir/BibliographyManager.cpp.o -o projectCpp 
