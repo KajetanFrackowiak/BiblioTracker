@@ -4,7 +4,7 @@
 #include <cctype>
 
 void BibliographyRecord::display() const {
-    setColor(Color::YELLOW);
+    setColor(Color::RED);
     std::cout << lastName;
     setColor(Color::RESET);
     std::cout << ", ";
@@ -41,6 +41,16 @@ bool BibliographyRecord::operator==(const BibliographyRecord&other) const {
 
 [[nodiscard]] bool BibliographyRecord::isValidFirstName() const {
     for (const char c: firstName) {
+        if (!isalpha(c) || (c == ' ')) {
+            return false;
+        }
+    }
+
+    return !firstName.empty() && isupper(firstName.front());
+}
+
+[[nodiscard]] bool BibliographyRecord::isValidTitle() const {
+    for (const char c: title) {
         if (!isalpha(c) || (c == ' ')) {
             return false;
         }

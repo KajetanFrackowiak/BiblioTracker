@@ -9,7 +9,7 @@ public:
     std::string lastName;
     std::string firstName;
     std::string title;
-    int year{};
+    int year;
 
     // Display function using color
     void display() const;
@@ -20,6 +20,7 @@ public:
     // Validation functions
     [[nodiscard]] bool isValidLastName() const;
     [[nodiscard]] bool isValidFirstName() const;
+    [[nodiscard]] bool isValidTitle() const;
 };
 
 #endif // BIBLIOGRAPHY_RECORD_H

@@ -24,5 +24,7 @@ void setColor(const Color color) {
         case Color::BLUE:
             std::cout << "\033[1;34m";
             break;
+        case Color::PURPLE:
+            std::cout <<"\033[1;35m";
     }
 }

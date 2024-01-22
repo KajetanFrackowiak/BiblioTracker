@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/BibliographyManager.cpp" "CMakeFiles/projectCpp.dir/BibliographyManager.cpp.o" "gcc" "CMakeFiles/projectCpp.dir/BibliographyManager.cpp.o.d"
-  "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/BibliographyRecord.cpp" "CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.o" "gcc" "CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.o.d"
-  "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/Color.cpp" "CMakeFiles/projectCpp.dir/Color.cpp.o" "gcc" "CMakeFiles/projectCpp.dir/Color.cpp.o.d"
-  "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/DateChecker.cpp" "CMakeFiles/projectCpp.dir/DateChecker.cpp.o" "gcc" "CMakeFiles/projectCpp.dir/DateChecker.cpp.o.d"
-  "/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/main.cpp" "CMakeFiles/projectCpp.dir/main.cpp.o" "gcc" "CMakeFiles/projectCpp.dir/main.cpp.o.d"
+  "C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/BibliographyManager.cpp" "CMakeFiles/projectCpp.dir/BibliographyManager.cpp.obj" "gcc" "CMakeFiles/projectCpp.dir/BibliographyManager.cpp.obj.d"
+  "C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/BibliographyRecord.cpp" "CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.obj" "gcc" "CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.obj.d"
+  "C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/Color.cpp" "CMakeFiles/projectCpp.dir/Color.cpp.obj" "gcc" "CMakeFiles/projectCpp.dir/Color.cpp.obj.d"
+  "C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/DateChecker.cpp" "CMakeFiles/projectCpp.dir/DateChecker.cpp.obj" "gcc" "CMakeFiles/projectCpp.dir/DateChecker.cpp.obj.d"
+  "C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/main.cpp" "CMakeFiles/projectCpp.dir/main.cpp.obj" "gcc" "CMakeFiles/projectCpp.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

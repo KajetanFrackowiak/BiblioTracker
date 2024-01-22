@@ -8,108 +8,110 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug"/>
+				<Option working_dir="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projectCpp">
-				<Option output="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/projectCpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug"/>
+				<Option output="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/projectCpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/13"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
-					<Add directory="/usr/include/c++/13/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCpp"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCpp"/>
+					<CompileFile command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="projectCpp/fast">
-				<Option output="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/projectCpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug"/>
+				<Option output="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/projectCpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/13"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
-					<Add directory="/usr/include/c++/13/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCpp/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 projectCpp/fast"/>
+					<CompileFile command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug"/>
+				<Option working_dir="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug"/>
+				<Option working_dir="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/kajte/AppData/Local/Programs/CLion Nova/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/BibliographyManager.cpp">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/BibliographyManager.cpp">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/BibliographyManager.h">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/BibliographyManager.h">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/BibliographyRecord.cpp">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/BibliographyRecord.cpp">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/BibliographyRecord.h">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/BibliographyRecord.h">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/Color.cpp">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/Color.cpp">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/Color.h">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/Color.h">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/DateChecker.cpp">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/DateChecker.cpp">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/DateChecker.h">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/DateChecker.h">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/main.cpp">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/main.cpp">
 			<Option target="projectCpp"/>
 		</Unit>
-		<Unit filename="/home/kajetan/CLionProjects/BiblioTracker/BiblioTracker/CMakeLists.txt">
+		<Unit filename="C:/Users/kajte/Documents/BiblioTracker/BiblioTracker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

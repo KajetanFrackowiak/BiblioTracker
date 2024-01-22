@@ -11,7 +11,7 @@
 int main() {
     BibliographyManager manager;
 
-    manager.loadFromFile("bibliography.txt");
+    manager.loadFromFile("bibliography.csv");
 
     int choice;
     do {
@@ -38,7 +38,7 @@ int main() {
                     std::getline(std::cin, title);
                     manager.searchByTitle(title);
                 }
-                break;
+                    break;
                 case 5: {
                     std::string lastName;
                     setColor(Color::YELLOW);
@@ -47,7 +47,7 @@ int main() {
                     std::cin >> lastName;
                     manager.searchByLastName(lastName);
                 }
-                break;
+                    break;
                 case 6: {
                     std::string firstName;
                     setColor(Color::YELLOW);
@@ -56,7 +56,7 @@ int main() {
                     std::cin >> firstName;
                     manager.searchByFirstName(firstName);
                 }
-                break;
+                    break;
                 case 7: {
                     int year;
                     setColor(Color::YELLOW);
@@ -65,7 +65,7 @@ int main() {
                     std::cin >> year;
                     manager.searchByYear(year);
                 }
-                break;
+                    break;
                 case 8: {
                     BibliographyRecord newRecord;
                     std::cout << "Enter last name: ";
@@ -74,7 +74,7 @@ int main() {
 
                         if (!newRecord.isValidLastName()) {
                             std::cerr << "Invalid last name format. Last name must not contain digits and should start "
-                                    "with a capital letter.\nWrite again: ";
+                                         "with a capital letter.\nWrite again: ";
                             // Clear the input buffer before prompting again
                             std::cin.clear();
                             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -91,8 +91,8 @@ int main() {
 
                         if (!newRecord.isValidFirstName()) {
                             std::cerr <<
-                                    "\nInvalid first name format. First name must not contain digits and should start "
-                                    "with a capital letter.\nWrite again: ";
+                                      "\nInvalid first name format. First name must not contain digits and should start "
+                                      "with a capital letter.\nWrite again: ";
                             std::cin.clear();
                             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                             continue;
@@ -103,26 +103,36 @@ int main() {
 
 
                     std::cout << "Enter title: ";
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-                    std::getline(std::cin, newRecord.title);
+                    do {
+                        std::cin >> newRecord.title;
+
+                        if (!newRecord.isValidTitle()) {
+                            std::cerr <<
+                                      "\nInvalid title format. Title must not contain digits and should start "
+                                      "with a capital letter.\nWrite again: ";
+                            std::cin.clear();
+                            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                            continue;
+                        }
+                        break;
+                    } while (true);
 
                     do {
                         std::cout << "Enter year: ";
                         std::cin >> newRecord.year;
                         if (!DateChecker::isValidYear(newRecord.year)) {
                             std::cerr << "\nInvalid year. Please enter a year not greater than the current year."
-                                    "\nWrite again: ";
+                                         "\nWrite again: ";
                             std::cin.clear();
                             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                         }
                         break;
-                    }
-                    while (true);
+                    } while (true);
 
 
                     manager.addRecord(newRecord);
                 }
-                break;
+                    break;
                 case 9:
                     manager.removeLastRecord();
                     break;
@@ -130,48 +140,74 @@ int main() {
                     BibliographyRecord recordToRemove;
                     setColor(Color::YELLOW);
                     std::cout << "Enter last name of the record to remove: ";
-                    setColor(Color::RESET);
                     std::cin >> recordToRemove.lastName;
+
                     setColor(Color::YELLOW);
                     std::cout << "Enter first name of the record to remove: ";
-                    setColor(Color::RESET);
-                    std::cin >> recordToRemove.firstName;
+                    std::cin.ignore();
+                    std::getline(std::cin, recordToRemove.firstName);
+
                     setColor(Color::YELLOW);
                     std::cout << "Enter title of the record to remove: ";
-                    setColor(Color::RESET);
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                     std::getline(std::cin, recordToRemove.title);
 
+                    setColor(Color::YELLOW);
+                    std::cout << "Enter year of the record to remove: ";
+                    std::cin >> recordToRemove.year;
+
+                    while (!BibliographyManager::isNumber(std::to_string(recordToRemove.year))) {
+                        setColor(Color::RED);
+                        std::cout << "Year must be a number, Write again:" << std::endl;
+                        // Clear buffer
+                        std::cin.clear();
+                        // Ignore any remaining characters in the buffer
+                        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                        std::cin >> recordToRemove.year;
+                    }
+
+                    // Find and remove the record based on its values
                     manager.removeRecord(recordToRemove);
+                    break;
                 }
-                break;
+
+                    break;
                 case 11: {
                     std::string filename;
                     setColor(Color::YELLOW);
                     std::cout << "Enter filename to save: ";
                     setColor(Color::RESET);
                     std::cin >> filename;
+
+
+                    if(filename.empty()) {
+                        filename = "bibliography.csv";
+                    }
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+
                     manager.saveToFile(filename);
+                    break;
                 }
-                break;
+
                 case 12:
                     manager.clearRecords();
                     break;
                 case 0:
+                    setColor(Color::PURPLE);
+                    std::cout << "BYE BYE :)" << std::endl;
                     break;
                 default:
                     setColor(Color::RED);
-                    std::cout << "Invalid choice. Please try again.\n";
+                    std::cerr << "Invalid choice. Please try again.\n";
                     setColor(Color::RESET);
             }
         }
-        catch (const std::exception&e) {
+        catch (const std::exception &e) {
             setColor(Color::RED);
-            std::cerr << "Error: " << e.what() << std::endl;
+            std::cout << "Error: " << e.what() << std::endl;
             setColor(Color::RESET);
         }
-    }
-    while (choice != 0);
+    } while (choice != 0);
 
     return 0;
 }

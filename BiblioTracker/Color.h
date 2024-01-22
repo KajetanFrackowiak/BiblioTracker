@@ -7,7 +7,9 @@ enum class Color {
     RED,
     GREEN,
     YELLOW,
-    BLUE
+    BLUE,
+    PURPLE,
+    ORANGE
 };
 
 void setColor(Color color);

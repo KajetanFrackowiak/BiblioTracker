@@ -22,6 +22,7 @@ public:
     void searchByYear(int year) const;
     void addRecord(const BibliographyRecord& record);
     void removeLastRecord();
+    static bool isNumber(const std::string &str);
     void removeRecord(const BibliographyRecord &record);
     void saveToFile(const std::string &filename) const;
     void clearRecords();

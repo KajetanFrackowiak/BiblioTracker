@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/projectCpp.dir/main.cpp.o CMakeFiles/projectCpp.dir/DateChecker.cpp.o CMakeFiles/projectCpp.dir/BibliographyRecord.cpp.o CMakeFiles/projectCpp.dir/Color.cpp.o CMakeFiles/projectCpp.dir/BibliographyManager.cpp.o -o projectCpp 
+C:\Users\kajte\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\projectCpp.dir/objects.a
+"C:\Users\kajte\AppData\Local\Programs\CLion Nova\bin\mingw\bin\ar.exe" qc CMakeFiles\projectCpp.dir/objects.a @CMakeFiles\projectCpp.dir\objects1.rsp
+"C:\Users\kajte\AppData\Local\Programs\CLion Nova\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\projectCpp.dir/objects.a -Wl,--no-whole-archive -o projectCpp.exe -Wl,--out-implib,libprojectCpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\projectCpp.dir\linkLibs.rsp
